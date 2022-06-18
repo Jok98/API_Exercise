@@ -261,3 +261,43 @@
 2022-06-18 23:18:02,129 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
 2022-06-18 23:18:02,130 [Worker-103: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-06-18 23:18:02,132 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:27:05,588 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:27:05,591 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:27:05,594 [Worker-107: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:27:05,594 [Worker-107: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:27:32,371 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:27:32,374 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:27:32,375 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:27:32,377 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:28:22,700 [Worker-108: Launching AudioToText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:28:22,704 [Worker-108: Launching AudioToText] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:28:22,705 [Worker-108: Launching AudioToText] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:28:22,708 [Worker-108: Launching AudioToText] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:29:37,705 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:29:37,708 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:29:37,708 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:29:37,711 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:30:00,947 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:30:00,950 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:30:00,950 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:30:00,953 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:30:49,602 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:30:49,611 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:30:49,613 [Worker-112: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:30:49,623 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:31:35,018 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:31:35,021 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:31:35,021 [Worker-109: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:31:35,024 [Worker-109: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:31:58,757 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:31:58,760 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:31:58,761 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:31:58,766 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:33:10,344 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:33:10,347 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:33:10,347 [Worker-113: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:33:10,350 [Worker-113: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources
+2022-06-18 23:34:22,257 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:34:22,259 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\main\resources
+2022-06-18 23:34:22,260 [Worker-111: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-06-18 23:34:22,263 [Worker-111: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jokmo\Documents\GitHub\API_Exercise\REST API - AssemblyAI\src\test\resources

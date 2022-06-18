@@ -18,8 +18,8 @@ public class AudioToText {
 	
 	public static void main(String[] args) throws URISyntaxException, IOException, InterruptedException {
 		
-		//il file audio deve essere online e accessibile 
-		transcript.setAudio("https://github.com/Jok98/API_Exercise/blob/main/Audio/Registrazione.m4a?raw=true");
+		
+		transcript.setAudio("https://github.com/Jok98/FileAudio/blob/main/Registrazione.m4a?raw=true");
 		
 		/*
 		 * viene utilizzata la libreria di google Gson per convertire l'oggetto transcript in json
@@ -32,7 +32,7 @@ public class AudioToText {
 				//inserire l'urrl necessario per effettuare la richiesta
 				.uri(new URI("https://api.assemblyai.com/v2/transcript"))
 				//header necessario che contiene l'autorizzazione all'uso dell'api tramite key
-				.header("Authorization", ApiKey.key)
+				.header("Authorization", "370e679d10d04020b31b20719f4cd20d")
 				/*
 				 * prevede come argomento un oggetto di tipo BodyPublishers
 				 */
@@ -60,7 +60,7 @@ public class AudioToText {
 		HttpResponse<String> getResponse = httpClient.send(getRequest,BodyHandlers.ofString());
 		transcript = gson.fromJson(getResponse.body(), Transcript.class);
 		System.out.println(transcript.getStatus());
-		if("completed".equals(transcript.getStatus()) || "error".equals(transcript.getStatus()) ) break;
+		if("completed".equals(transcript.getStatus()) || "error".equals(transcript.getStatus()) || ApiKey.key.isEmpty()) break;
 		Thread.sleep(1000);
 		
 		}

@@ -1,0 +1,7 @@
+package audioToText;
+
+public class ApiKey {
+	
+	public static final String key = "370e679d10d04020b31b20719f4cd20d";
+
+}

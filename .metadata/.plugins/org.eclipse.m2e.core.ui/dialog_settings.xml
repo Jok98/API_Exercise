@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="wizardPage">
+		<list key="groupId">
+			<item value="REST_API_AssemblyAI"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="REST_API_AssemblyAI"/>
+		</list>
+		<list key="version">
+			<item value="1.0"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="531"/>
+		<item key="x" value="1040"/>
+		<item key="y" value="342"/>
+	</section>
+</section>

@@ -32,7 +32,7 @@ public class AudioToText {
 				//inserire l'urrl necessario per effettuare la richiesta
 				.uri(new URI("https://api.assemblyai.com/v2/transcript"))
 				//header necessario che contiene l'autorizzazione all'uso dell'api tramite key
-				.header("Authorization", ApiKey.key)
+				.header("Authorization", "370e679d10d04020b31b20719f4cd20d")
 				/*
 				 * prevede come argomento un oggetto di tipo BodyPublishers
 				 */
@@ -54,7 +54,7 @@ public class AudioToText {
 		//richiesta per ottenere il testo elaborato dall'audio
 		HttpRequest getRequest = HttpRequest.newBuilder()
 				.uri(new URI("https://api.assemblyai.com/v2/transcript/"+transcript.getId()))
-				.header("Authorization", ApiKey.key)
+				.header("Authorization", "370e679d10d04020b31b20719f4cd20d")
 				.build();
 		while(true) {
 		HttpResponse<String> getResponse = httpClient.send(getRequest,BodyHandlers.ofString());

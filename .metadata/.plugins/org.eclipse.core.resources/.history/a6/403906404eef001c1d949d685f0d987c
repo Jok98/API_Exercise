@@ -32,7 +32,7 @@ public class AudioToText {
 				//inserire l'urrl necessario per effettuare la richiesta
 				.uri(new URI("https://api.assemblyai.com/v2/transcript"))
 				//header necessario che contiene l'autorizzazione all'uso dell'api tramite key
-				.header("Authorization", ApiKey.key)
+				.header("Authorization", "ApiKey.key")
 				/*
 				 * prevede come argomento un oggetto di tipo BodyPublishers
 				 */

@@ -1,0 +1,40 @@
+package audioToText;
+
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.http.HttpRequest;
+
+import com.google.gson.Gson;
+
+public class AudioToText {
+
+	public static void main(String[] args) {
+		
+		Transcript transcript = new Transcript();
+		transcript.setAudio(null);
+		
+		/*la rest api prevede che la richiesta sia fatta in json
+		 * viene utilizzata la libreria di google Gson per convertire 
+		 * l'oggetto transcript in json
+		 *  
+		 */
+		Gson gson = new Gson();
+		String jsonRequest = gson.toJson(transcript);
+		System.out.println(jsonRequest);
+
+	}
+	
+	@SuppressWarnings("unused")
+	private static void postRequest() throws URISyntaxException {
+		
+//		HttpRequest postRequest = (HttpRequest) HttpRequest.newBuilder()
+//				//inserire l'urrl necessario per effettuare la richiesta
+//				.uri(new URI("https://api.assemblyai.com/v2/transcript"))
+//				//header necessario che contiene l'autorizzazione all'uso dell'api tramite key
+//				.header("Authorization", "370e679d10d04020b31b20719f4cd20d")
+//				.POST(null);
+		
+		
+	}
+
+}

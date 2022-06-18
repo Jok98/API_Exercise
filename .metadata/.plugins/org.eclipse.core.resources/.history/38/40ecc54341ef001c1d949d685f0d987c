@@ -1,0 +1,68 @@
+package audioToText;
+
+import java.io.IOException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpRequest.BodyPublishers;
+import java.net.http.HttpResponse;
+import java.net.http.HttpResponse.BodyHandlers;
+
+import com.google.gson.Gson;
+
+public class AudioToText {
+	
+	private static Transcript transcript = new Transcript();
+	private static String jsonRequest;
+	
+	public static void main(String[] args) {
+		
+		
+		transcript.setAudio("https://github.com/johnmarty3/JavaAPITutorial/blob/main/Thirsty.mp4");
+		
+		/*
+		 * viene utilizzata la libreria di google Gson per convertire 
+		 * l'oggetto transcript in json
+		 */
+		Gson gson = new Gson();
+		jsonRequest = gson.toJson(transcript);
+		System.out.println(jsonRequest);
+		try {
+			postRequest();
+		} catch (URISyntaxException | IOException | InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressWarnings("unused")
+	private static void postRequest() throws URISyntaxException, IOException, InterruptedException {
+		
+		HttpRequest postRequest = (HttpRequest) HttpRequest.newBuilder()
+				//inserire l'urrl necessario per effettuare la richiesta
+				.uri(new URI("https://api.assemblyai.com/v2/transcript"))
+				//header necessario che contiene l'autorizzazione all'uso dell'api tramite key
+				.header("Authorization", "370e679d10d04020b31b20719f4cd20d")
+				/*
+				 * prevede come argomento un oggetto di tipo BodyPublishers
+				 */
+				.POST(BodyPublishers.ofString(jsonRequest))
+				.build();
+		//inviamo la richiesta tramite la classe HttpClient
+		HttpClient httpClient = HttpClient.newHttpClient();
+		/*il primo argomento è l'oggetto da inviare, il secondo è
+		 *il tipo che ci si aspetta di ricevere come risposta in questo caso una stringa
+		 */
+		HttpResponse<String> postResponse = httpClient.send(postRequest, BodyHandlers.ofString());
+		
+		System.out.println(postResponse.body());
+	}
+	
+	private static void postResponse() {
+		
+		//HttpResponse
+		
+		
+	}
+
+}
